@@ -1,0 +1,19 @@
+{
+  "name": "egg-ssr",
+  "version": "1.0.0",
+  "description": "Egg + React + React-Router,  SPA + SSR",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yanchenyu/egg-ssr.git"
+  },
+  "author": "yancy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yanchenyu/egg-ssr/issues"
+  },
+  "homepage": "https://github.com/Yanchenyu/egg-ssr#readme"
+}

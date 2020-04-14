@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="{{locale}}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    {{ resources.links | safe }}
+    {% block preload %}{% endblock %}
+    {{ resources.styles | safe }}
+    {% block styles %}{% endblock %}
+</head>
+<body>
+    {% block title %}{% endblock %}
+    <div id="root">{{ renderHtml | safe }}</div>
+    <script type="text/javascript">
+        window['__ROUTE_DATA__'] = {{ context | dump | safe }};
+    </script>
+    {{ resources.scripts | safe }}
+    {% block script %}{% endblock %}
+</body>
+</html>

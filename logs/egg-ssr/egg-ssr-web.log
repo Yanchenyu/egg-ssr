@@ -1,0 +1,88 @@
+2020-04-10 16:48:56,433 ERROR 28404 [-/127.0.0.1/-/0ms GET /] nodejs.Error: [ClusterClient] leader does not be active in 60000ms on port:undefined
+    at Function.waitFor (/Users/yanchenyu/github/egg-ssr/node_modules/cluster-client/lib/server.js:238:15)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 28404
+hostname: yanchenyudeMacBook-Pro.local
+
+2020-04-10 16:51:21,721 ERROR 28623 [-/127.0.0.1/-/0ms GET /] nodejs.Error: [ClusterClient] leader does not be active in 60000ms on port:undefined
+    at Function.waitFor (/Users/yanchenyu/github/egg-ssr/node_modules/cluster-client/lib/server.js:238:15)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 28623
+hostname: yanchenyudeMacBook-Pro.local
+
+2020-04-10 16:51:41,608 ERROR 28623 [-/127.0.0.1/-/5ms GET /page/home] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/yanchenyu/github/egg-ssr/node_modules/egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Users/yanchenyu/github/egg-ssr/node_modules/egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/yanchenyu/github/egg-ssr/node_modules/egg-security/app/extend/context.js:86:33)
+    at Object.ensureCsrfSecret (/Users/yanchenyu/github/egg-ssr/node_modules/egg-security/app/extend/context.js:97:13)
+    at csrf (/Users/yanchenyu/github/egg-ssr/node_modules/egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Users/yanchenyu/github/egg-ssr/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/yanchenyu/github/egg-ssr/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/yanchenyu/github/egg-ssr/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/yanchenyu/github/egg-ssr/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/yanchenyu/github/egg-ssr/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 28623
+hostname: yanchenyudeMacBook-Pro.local
+
+2020-04-10 16:54:28,199 ERROR 28676 [-/127.0.0.1/-/0ms GET /] nodejs.Error: [ClusterClient] leader does not be active in 60000ms on port:undefined
+    at Function.waitFor (/Users/yanchenyu/github/egg-ssr/node_modules/cluster-client/lib/server.js:238:15)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 28676
+hostname: yanchenyudeMacBook-Pro.local
+
+2020-04-10 17:03:17,803 ERROR 28956 [-/127.0.0.1/-/1ms GET /] nodejs.Error: [ClusterClient] leader does not be active in 60000ms on port:undefined
+    at Function.waitFor (/Users/yanchenyu/github/egg-ssr/node_modules/cluster-client/lib/server.js:238:15)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 28956
+hostname: yanchenyudeMacBook-Pro.local
+
+2020-04-10 17:07:49,261 ERROR 29177 [-/127.0.0.1/-/0ms GET /] nodejs.Error: [ClusterClient] leader does not be active in 60000ms on port:undefined
+    at Function.waitFor (/Users/yanchenyu/github/egg-ssr/node_modules/cluster-client/lib/server.js:238:15)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 29177
+hostname: yanchenyudeMacBook-Pro.local
+
+2020-04-10 17:19:22,520 ERROR 29682 [-/127.0.0.1/-/1ms GET /] nodejs.Error: [ClusterClient] leader does not be active in 60000ms on port:undefined
+    at Function.waitFor (/Users/yanchenyu/github/egg-ssr/node_modules/cluster-client/lib/server.js:238:15)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 29682
+hostname: yanchenyudeMacBook-Pro.local
+
+2020-04-10 17:25:12,519 ERROR 29682 [-/127.0.0.1/-/4ms GET /page/home] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/yanchenyu/github/egg-ssr/node_modules/egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Users/yanchenyu/github/egg-ssr/node_modules/egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/yanchenyu/github/egg-ssr/node_modules/egg-security/app/extend/context.js:86:33)
+    at Object.ensureCsrfSecret (/Users/yanchenyu/github/egg-ssr/node_modules/egg-security/app/extend/context.js:97:13)
+    at csrf (/Users/yanchenyu/github/egg-ssr/node_modules/egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Users/yanchenyu/github/egg-ssr/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/yanchenyu/github/egg-ssr/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/yanchenyu/github/egg-ssr/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/yanchenyu/github/egg-ssr/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/yanchenyu/github/egg-ssr/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 29682
+hostname: yanchenyudeMacBook-Pro.local
+
+2020-04-10 17:27:24,520 ERROR 29931 [-/127.0.0.1/-/0ms GET /] nodejs.Error: [ClusterClient] leader does not be active in 60000ms on port:undefined
+    at Function.waitFor (/Users/yanchenyu/github/egg-ssr/node_modules/cluster-client/lib/server.js:238:15)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 29931
+hostname: yanchenyudeMacBook-Pro.local
+
+2020-04-14 18:41:26,875 ERROR 75315 [-/127.0.0.1/-/1ms GET /] nodejs.Error: [ClusterClient] leader does not be active in 60000ms on port:undefined
+    at Function.waitFor (/Users/yanchenyu/github/egg-ssr/node_modules/cluster-client/lib/server.js:238:15)
+    at processTicksAndRejections (internal/process/task_queues.js:94:5)
+    at async ClusterClient.[ClusterClient#createClient] (/Users/yanchenyu/github/egg-ssr/node_modules/cluster-client/lib/wrapper/cluster.js:42:7)
+    at async ClusterClient.[ClusterClient#init] (/Users/yanchenyu/github/egg-ssr/node_modules/cluster-client/lib/wrapper/base.js:71:25)
+
+pid: 75315
+hostname: yanchenyudeMacBook-Pro.local
+

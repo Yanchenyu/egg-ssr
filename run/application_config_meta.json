@@ -1,0 +1,344 @@
+{
+  "keys": "/Users/yanchenyu/github/egg-ssr/config/config.default.js",
+  "session": {
+    "maxAge": "/Users/yanchenyu/github/egg-ssr/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/yanchenyu/github/egg-ssr/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/yanchenyu/github/egg-ssr/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/yanchenyu/github/egg-ssr/node_modules/egg-session/config/config.default.js"
+  },
+  "security": {
+    "domainWhiteList": "/Users/yanchenyu/github/egg-ssr/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/yanchenyu/github/egg-ssr/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/yanchenyu/github/egg-ssr/node_modules/egg-security/config/config.default.js",
+    "csrf": {
+      "enable": "/Users/yanchenyu/github/egg-ssr/node_modules/egg-security/config/config.default.js",
+      "type": "/Users/yanchenyu/github/egg-ssr/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/yanchenyu/github/egg-ssr/node_modules/egg-security/config/config.default.js",
+      "useSession": "/Users/yanchenyu/github/egg-ssr/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/yanchenyu/github/egg-ssr/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/yanchenyu/github/egg-ssr/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/yanchenyu/github/egg-ssr/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/yanchenyu/github/egg-ssr/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/yanchenyu/github/egg-ssr/node_modules/egg-security/config/config.default.js",
+      "refererWhiteList": "/Users/yanchenyu/github/egg-ssr/node_modules/egg-security/config/config.default.js"
+    },
+    "xframe": {
+      "enable": "/Users/yanchenyu/github/egg-ssr/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/yanchenyu/github/egg-ssr/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/yanchenyu/github/egg-ssr/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/yanchenyu/github/egg-ssr/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/yanchenyu/github/egg-ssr/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/yanchenyu/github/egg-ssr/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/yanchenyu/github/egg-ssr/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/yanchenyu/github/egg-ssr/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/yanchenyu/github/egg-ssr/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/yanchenyu/github/egg-ssr/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/yanchenyu/github/egg-ssr/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/yanchenyu/github/egg-ssr/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/yanchenyu/github/egg-ssr/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/yanchenyu/github/egg-ssr/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/yanchenyu/github/egg-ssr/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/yanchenyu/github/egg-ssr/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/yanchenyu/github/egg-ssr/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "helper": {
+    "shtml": "/Users/yanchenyu/github/egg-ssr/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/yanchenyu/github/egg-ssr/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/yanchenyu/github/egg-ssr/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/yanchenyu/github/egg-ssr/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/yanchenyu/github/egg-ssr/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/yanchenyu/github/egg-ssr/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/Users/yanchenyu/github/egg-ssr/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/yanchenyu/github/egg-ssr/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/yanchenyu/github/egg-ssr/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/yanchenyu/github/egg-ssr/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/yanchenyu/github/egg-ssr/node_modules/egg-i18n/config/config.default.js",
+    "cookieDomain": "/Users/yanchenyu/github/egg-ssr/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/yanchenyu/github/egg-ssr/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/yanchenyu/github/egg-ssr/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/yanchenyu/github/egg-ssr/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/yanchenyu/github/egg-ssr/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/yanchenyu/github/egg-ssr/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/yanchenyu/github/egg-ssr/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/Users/yanchenyu/github/egg-ssr/node_modules/egg-schedule/config/config.default.js"
+  },
+  "multipart": {
+    "mode": "/Users/yanchenyu/github/egg-ssr/node_modules/egg-multipart/config/config.default.js",
+    "autoFields": "/Users/yanchenyu/github/egg-ssr/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/yanchenyu/github/egg-ssr/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/yanchenyu/github/egg-ssr/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/yanchenyu/github/egg-ssr/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/yanchenyu/github/egg-ssr/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/yanchenyu/github/egg-ssr/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/yanchenyu/github/egg-ssr/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/yanchenyu/github/egg-ssr/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/yanchenyu/github/egg-ssr/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/yanchenyu/github/egg-ssr/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Users/yanchenyu/github/egg-ssr/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "/Users/yanchenyu/github/egg-ssr/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/yanchenyu/github/egg-ssr/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/yanchenyu/github/egg-ssr/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/yanchenyu/github/egg-ssr/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/yanchenyu/github/egg-ssr/node_modules/egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/yanchenyu/github/egg-ssr/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/yanchenyu/github/egg-ssr/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/yanchenyu/github/egg-ssr/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/yanchenyu/github/egg-ssr/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/yanchenyu/github/egg-ssr/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/yanchenyu/github/egg-ssr/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/yanchenyu/github/egg-ssr/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/yanchenyu/github/egg-ssr/node_modules/egg-static/config/config.default.js",
+    "dir": "/Users/yanchenyu/github/egg-ssr/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Users/yanchenyu/github/egg-ssr/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/yanchenyu/github/egg-ssr/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/yanchenyu/github/egg-ssr/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/yanchenyu/github/egg-ssr/node_modules/egg-static/config/config.default.js"
+  },
+  "view": {
+    "root": "/Users/yanchenyu/github/egg-ssr/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/yanchenyu/github/egg-ssr/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/yanchenyu/github/egg-ssr/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/yanchenyu/github/egg-ssr/node_modules/egg-view/config/config.default.js",
+    "mapping": "/Users/yanchenyu/github/egg-ssr/node_modules/egg-view/config/config.default.js"
+  },
+  "nunjucks": {
+    "autoescape": "/Users/yanchenyu/github/egg-ssr/node_modules/egg-view-nunjucks/config/config.default.js",
+    "throwOnUndefined": "/Users/yanchenyu/github/egg-ssr/node_modules/egg-view-nunjucks/config/config.default.js",
+    "trimBlocks": "/Users/yanchenyu/github/egg-ssr/node_modules/egg-view-nunjucks/config/config.default.js",
+    "lstripBlocks": "/Users/yanchenyu/github/egg-ssr/node_modules/egg-view-nunjucks/config/config.default.js",
+    "cache": "/Users/yanchenyu/github/egg-ssr/node_modules/egg-view-nunjucks/config/config.local.js"
+  },
+  "env": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+  "name": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+  "cookies": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+  "maxIpsCount": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+  "maxProxyCount": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+    "version": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+    "description": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+    "main": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+    "scripts": {
+      "test": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+      "dev:client": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+      "dev:server": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+      "dev": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+      "build:client": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+      "build:server": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+      "build": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+      "start": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+      "analyz": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+      "lint": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+      "lint:error": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+      "stylelint": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+      "stylelint:fix": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js"
+    },
+    "repository": {
+      "type": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+      "url": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js"
+    },
+    "author": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+    "license": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+    "bugs": {
+      "url": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js"
+    },
+    "config": {
+      "vd": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+      "port": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+      "env": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js"
+    },
+    "homepage": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+    "dependencies": {
+      "@babel/polyfill": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+      "@babel/runtime-corejs2": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+      "egg": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+      "egg-view-nunjucks": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+      "react": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+      "react-dom": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+      "react-router-dom": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "@babel/core": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+      "@babel/plugin-proposal-class-properties": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+      "@babel/plugin-syntax-dynamic-import": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+      "@babel/plugin-transform-runtime": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+      "@babel/preset-env": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+      "@babel/preset-react": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+      "@babel/register": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+      "@commitlint/cli": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+      "@loadable/babel-plugin": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+      "@loadable/component": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+      "@loadable/server": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+      "@loadable/webpack-plugin": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+      "autoprefixer": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+      "babel-eslint": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+      "babel-loader": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+      "clean-webpack-plugin": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+      "cross-env": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+      "css-loader": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+      "eslint": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+      "eslint-loader": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+      "eslint-plugin-react": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+      "file-loader": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+      "husky": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+      "ignore-loader": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+      "lint-staged": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+      "mini-css-extract-plugin": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+      "node-sass": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+      "nodemon": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+      "pm2": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+      "postcss-loader": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+      "prettier": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+      "sass-loader": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+      "style-loader": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+      "stylelint": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+      "stylelint-config-standard": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+      "stylelint-order": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+      "stylelint-webpack-plugin": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+      "url-loader": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+      "webpack": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+      "webpack-bundle-analyzer": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+      "webpack-cli": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+      "webpack-dev-server": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+      "webpack-merge": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+      "webpack-node-externals": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js"
+    }
+  },
+  "baseDir": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+    "textLimit": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+    "strict": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+      "depth": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js"
+    },
+    "onerror": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js"
+  },
+  "logger": {
+    "dir": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+    "env": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+    "level": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+    "logging": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+      "port": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/Users/yanchenyu/github/egg-ssr/node_modules/egg/config/config.default.js"
+}

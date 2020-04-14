@@ -1,0 +1,4 @@
+{
+    "*.{css,scss}": ["stylelint --fix", "git add"],
+    "*.{js,jsx}": ["eslint --fix --format codeframe", "git add"]
+}
